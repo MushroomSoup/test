@@ -1,0 +1,51 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Currency Exchage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <table align="center" border="1" id="outer">
+            <tr>
+            <th colspan="2" class="title"><h1> CURRENCY EXCHANGE </h1></th>
+            </tr>
+            <tr>
+                <td>
+                    <form action="./Exchange" method="post">
+                        <h2>VND : <input type="text" name="vnd" id="vnd"></h2>
+                        <h3><input type="radio" name="currency" value="usd">USD</h3>
+                        <h3><input type="radio" name="currency" value="eur">EUR</h3>
+                        <h3><input type="radio" name="currency" value="jpy">JPY</h3>
+                        <input type="submit" name="exchange" value="exchange">
+                    </form>
+                </td>
+                <td>
+                    <table align="center" border="1" id="inner">
+                        <tr><th colspan="2">Currency Exchange</th></tr>
+                        <tr>
+                            <td>Currency</td>
+                            <td>Rate</td>
+                        </tr>
+                        <tr>
+                            <td>USD</td>
+                            <td>16,452</td>
+                        </tr>
+                        <tr>
+                            <td>EUR</td>
+                            <td>25,170.38</td>
+                        </tr>
+                        <tr>
+                            <td>JPY</td>
+                            <td>151.23</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
