@@ -1,0 +1,24 @@
+/* 
+    Document   : style
+    Created on : Sep 30, 2013, 11:15:00 PM
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#outer
+{
+    height: 350px;
+    width: 550px;
+}
+#inner
+{
+    background-color: lightskyblue;
+}
+th.title
+{
+    background-color: darksalmon;
+}
